@@ -1,0 +1,58 @@
+
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <title>View Citizens</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- this is where we refer the css file from src/main/resources/static/main.css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white dark:bg-gray-900" style="height: 100%;" >
+<header>
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Vaccination.com</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="/" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500" >Home</a>
+                    </li>
+                    <li>
+                        <a href="/about" class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
+    <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Java EE Examen Projet</h2>
+        <h3 class="mb-4 text-xl tracking-tight font-md text-gray-900 dark:text-white"><span class="font-md text-blue-500">Etudiant : </span> BENCHAD Said </h3>
+        <h3 class="mb-4 text-xl tracking-tight font-md text-gray-900 dark:text-white"><span class="font-md text-blue-500"> MST : </span> IMSC</h3>
+        <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400"><span>Ce projet Spring Boot utilisant Thymeleaf pour la gestion des centres et des citoyens illustre une application web moderne et fonctionnelle.
+            En mettant en œuvre une relation un-à-plusieurs entre les centres et les citoyens (Citizens),
+            l'application permet une gestion efficace et structurée des inscriptions des citoyens dans différents centres.
+            L'utilisation de Thymeleaf pour le développement des interfaces utilisateur offre une intégration fluide avec Spring Boot,
+            facilitant ainsi la création de formulaires et la présentation des données. La capacité de gérer les CRUD (Création, Lecture, Suppression)
+            pour les deux entités, Centre et Citoyen, rend l'application polyvalente et adaptée aux besoins administratifs.
+            Les défis rencontrés, tels que la liaison des données de formulaire avec les objets du modèle et la gestion des relations entre les entités,
+            ont été des occasions d'approfondir la compréhension du fonctionnement interne de Spring Boot et Thymeleaf.
+            En somme, ce projet non seulement démontre les compétences techniques en matière de développement web avec Spring Boot et Thymeleaf,
+            mais offre également une solution pratique pour la gestion centralisée des centres et de leurs membres.
+            </span></p>
+    </div>
+</div>
+
+</body>
+</html>
